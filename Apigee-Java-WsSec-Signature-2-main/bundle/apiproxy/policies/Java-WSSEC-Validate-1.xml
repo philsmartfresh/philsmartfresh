@@ -1,0 +1,10 @@
+<JavaCallout name='Java-WSSEC-Validate-1'>
+  <Properties>
+    <Property name='source'>message.content</Property>
+    <Property name='require-expiry'>false</Property>
+    <Property name='accept-thumbprints'>ada3a946669ad4e6e2c9f81360c3249e49a57a7d</Property>
+    <Property name='accept-subject-cns'>apigee.google.com</Property>
+  </Properties>
+  <ClassName>com.google.apigee.callouts.wssecdsig.Validate</ClassName>
+  <ResourceURL>java://apigee-wssecdsig-20220210.jar</ResourceURL>
+</JavaCallout>
